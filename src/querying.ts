@@ -18,6 +18,7 @@ const results = await client.query("items", {
   },
   with_payload: true,
   limit: 5,
+  score_threshold: 0.5
 });
 
 // print results
